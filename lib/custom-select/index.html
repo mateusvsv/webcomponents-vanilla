@@ -1,0 +1,23 @@
+<!-- Defines the element's style and local DOM -->
+<template id="custom-select">
+
+<style>
+    :host {
+    display: block;
+    color: blue;
+    }
+</style>
+
+
+<div>
+    <p>Select test</p>
+<select class="select-element"></select>
+</div>
+
+<button on-click="addItem">Add pizza</button>
+
+<slot name="footer"></slot>
+<slot name="footer2"></slot>
+
+</template>
+<script src="custom-select.js"></script>
