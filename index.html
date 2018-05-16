@@ -7,16 +7,9 @@
 <body>
   <custom-select items='[{"name": "Arroz", "value": 999}]'></custom-select>
   
-  <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.2.0/webcomponents-hi.js"></script>
 
-  <script type="module">
-    WebComponents.waitFor(async () => {
-      if (!window.fetch) {
-        await import('node_modules/fetch-polyfill/fetch.js');
-      }
-      return import('lib/custom-select/index.html');
-    })
-  </script>
+  <link rel="import" href="lib/custom-select/index.html"></script>
   
 </body>
 

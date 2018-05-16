@@ -18,7 +18,5 @@
   },
   "homepage": "https://github.com/mateusvsv/webcomponents-vanilla#readme",
   "dependencies": {
-    "@webcomponents/webcomponentsjs": "^2.0.0",
-    "gulp": "^3.9.1"
   }
 }
